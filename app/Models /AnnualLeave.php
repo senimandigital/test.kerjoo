@@ -9,6 +9,8 @@ class AnnualLeave extends Model
 {
     use HasFactory;
 
+    protected $table = 'cuti';
+
     protected $fillable = [
         'tanggal_mulai',
         'tanggal_berakhir',
