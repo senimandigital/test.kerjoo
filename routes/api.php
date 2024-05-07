@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/annual-leaves', 'AnnualLeaveController@store');
-Route::get('/annual-leaves', 'AnnualLeaveController@index');
-Route::get('/annual-leaves/{id}', 'AnnualLeaveController@show');
+Route::post('/annual-leaves', 'App\Http\Controllers\AnnualLeaveController@store');
+Route::get('/annual-leaves', 'App\Http\Controllers\AnnualLeaveController@index');
+Route::get('/annual-leaves/{id}', 'App\Http\Controllers\AnnualLeaveController@show');
